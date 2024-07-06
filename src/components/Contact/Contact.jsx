@@ -1,7 +1,7 @@
 import { VscAccount } from "react-icons/vsc";
 import { VscCallOutgoing } from "react-icons/vsc";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactsSlice";
+import { deleteContact } from "../../redux/contactsOps";
 
 
 const Contact = ({ name, number, id }) => {
