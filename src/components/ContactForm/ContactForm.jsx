@@ -3,7 +3,6 @@ import * as Yup from "yup";
 import { useDispatch } from "react-redux";
 import { addContact } from "../../redux/contactsOps";
 
-
 const validationShema = Yup.object().shape({
   id: "",
   name: Yup.string()
